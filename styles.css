@@ -197,6 +197,8 @@ header {
   .pyramid-loader .pckInstall .containerTerm {
     width: auto;
     height: auto;
+    box-shadow: 0px 10px 15px 9px rgba(0,0,0,0.1);
+    border-radius: 5px;
   }
   
   .terminal_toolbar {
@@ -337,6 +339,8 @@ header {
   .containerTerm2 {
     width: 100%;
     max-width: 600px;
+    box-shadow: 0px 10px 15px 9px rgba(0,0,0,0.1);
+    border-radius: 5px;
   }
 
   .terminal_toolbar {
