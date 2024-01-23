@@ -79,13 +79,14 @@ header {
     justify-content: center;
     align-items: center;
     margin: 30px 0 90px 0;
+    padding: 40px 0 20px 0;
   }
 
   .mainContainer {
-    max-width: 1200px;
+    max-width: 1900px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 20px 0 50px 0;
   }
 
@@ -102,11 +103,16 @@ header {
     font-weight: 600;
     flex-wrap: wrap;
     width: 100%;
+    color: #33272a;
   }
 
   .mainContainer .mainContent h1 span {
-    color: #c3f0ca;
+    color: #fff;
     -webkit-text-stroke: 1px #33272a; 
+  }
+
+  .mainContainer .mainContent p {
+    color: #594a4e;
   }
 
   .mainContainer .pyramid-loader {
@@ -252,7 +258,7 @@ header {
   
   .user {
     color: #d5d0ce;
-    margin-left: 6px;
+    margin-left: 18px;
     font-size: 12px;
     line-height: 15px;
   }
@@ -317,3 +323,151 @@ header {
       background: #ffffff;
     }
   } 
+
+  .terminalContent {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+    padding: 50px 0 50px 0;
+    gap: 45px;
+  }
+
+  .containerTerm2 {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .terminal_toolbar {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(#504b45 0%, #3c3b37 100%);
+  }
+  
+  .butt {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-right: 5px;
+    font-size: 8px;
+    height: 12px;
+    width: 12px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 100%;
+    background: linear-gradient(#7d7871 0%, #595953 100%);
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.2);
+    box-shadow: 0px 0px 1px 0px #41403A, 0px 1px 1px 0px #474642;
+  }
+  
+  .btn-color {
+    background: #ee411a;
+  }
+  
+  .btn-color2 {
+    background: #fdba41;
+  }
+
+  .btn-color3 {
+    background: #00c92f;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .butt--exit {
+    background: linear-gradient(#f3745e 0%, #de4c12 100%);
+  }
+  
+  .user2 {
+    color: #d5d0ce;
+    margin-left: 8px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  
+  .terminal_body {
+    background: grey;
+    height: calc(100% - 30px);
+    padding: 3px;
+    margin-top: -1px;
+    font-size: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .terminal_promt {
+    display: flex;
+  }
+  
+  .terminal_promt span {
+    margin-left: 5px;
+  }
+  
+  .terminal_user2 {
+    color: greenyellow;
+  }
+  
+  .terminal_location2 {
+    color: violet;
+  }
+  
+  .terminal_bling2 {
+    color: #dddddd;
+  }
+  
+  .terminal_user3 {
+    color: pink;
+  }
+  
+  .terminal_cursor {
+    display: block;
+    height: 14px;
+    width: 5px;
+    margin-left: 10px;
+    animation: curbl 1200ms linear infinite;
+  }
+  
+  @keyframes curbl {
+    
+    0% {
+      background: #ffffff;
+    }
+  
+    49% {
+      background: #ffffff;
+    }
+  
+    60% {
+      background: transparent;
+    }
+  
+    99% {
+      background: transparent;
+    }
+  
+    100% {
+      background: #ffffff;
+    }
+  } 
+
+  .terminalContent .terminalAdminInfo h2 {
+    color: #594a4e;
+  }
