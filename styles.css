@@ -25,6 +25,18 @@ header {
     font-weight: 600;
 }
 
+.navbar .mobileNav {
+
+}
+
+.navbar .mobileNav {
+  font-size: xx-large;
+}
+
+.navbar .mobileNav .bx-menu, .bx-x {
+  display: none;
+}
+
 .navbar .navItems {
 
     display: flex;
@@ -419,6 +431,7 @@ header {
   
   .terminal_promt {
     display: flex;
+    align-items: center;
   }
   
   .terminal_promt span {
@@ -472,6 +485,56 @@ header {
     }
   } 
 
+  .terminalContent .terminalAdminInfo {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:  27px;
+  }
+
   .terminalContent .terminalAdminInfo h2 {
     color: #594a4e;
+  }
+
+  .terminalContent .terminalAdminInfo .examplesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .terminalContent .terminalAdminInfo .terminal_promt .terminal_comment {
+    margin-left: 15px;
+    color: grey;
+  }
+
+  .terminalAdminInfo .examplesContainer .terminal_promt {
+    font-size: small;
+  }
+
+
+  @media (max-width: 900px) {
+
+    .navbar .mobileNav .bx-menu{
+      display: inline;
+    }
+
+    .navbar .navItems {
+      display: none;
+    }
+  }
+
+  @media (max-width: 863px) {
+    .mainContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mainContainer .mainContent {
+      padding: 40px 0 0 0;
+    }
   }
