@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -15,7 +18,7 @@
                 <i class='bx bx-menu'></i>
                 <i class='bx bx-x'></i>
             </div>
-            <div class="navItems">    
+            <div class="navItems">
                 <ul>
                     <a href="">Features</a></li>
                     <a href="">Docs</a>
@@ -29,24 +32,24 @@
 
         <main>
             <div class="mainContainer">
-                <div class="mainContent">
+                <div data-aos="fade-right" data-aos-duration="1700" class="mainContent">
                     <h1>Transform Your <span>Experience</h1>
                     <h3>Your Customizable Terminal Redefined</h3>
                     <p>Discover a new dimension in interacting with your Mac. At /Slash.io,
-                     we offer a unique and customizable 
-                    terminal that goes beyond conventional limits. Imagine an experience 
-                    where your terminal adapts to your needs, providing an intuitive and 
-                    efficient environment.</p>
+                        we offer a unique and customizable
+                        terminal that goes beyond conventional limits. Imagine an experience
+                        where your terminal adapts to your needs, providing an intuitive and
+                        efficient environment.</p>
                 </div>
                 <div class="pyramid-loader">
                     <div class="wrapper">
-                      <span class="side side1"></span>
-                      <span class="side side2"></span>
-                      <span class="side side3"></span>
-                      <span class="side side4"></span>
-                      <span class="shadow"></span>
+                        <span class="side side1"></span>
+                        <span class="side side2"></span>
+                        <span class="side side3"></span>
+                        <span class="side side4"></span>
+                        <span class="shadow"></span>
                     </div>
-                    <div class="pckInstall">
+                    <div data-aos="fade-left" data-aos-duration="1700" class="pckInstall">
                         <div class="containerTerm">
                             <div class="container_terminal"></div>
                             <div class="terminal_toolbar">
@@ -66,13 +69,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div>  
-                  </div>
+                    </div>
+                </div>
             </div>
         </main>
 
         <div class="terminalContent">
-            <div class="containerTerm2">
+            <div data-aos="fade-up" data-aos-duration="1700" class="containerTerm2">
                 <div class="container_terminal"></div>
                 <div class="terminal_toolbar">
                     <div class="butt">
@@ -128,51 +131,61 @@
                 </div>
             </div>
             <div class="terminalAdminInfo">
-                <h2>Personalize, Create & set your own commands!</h2>
-                    <div class="examplesContainer">
-                        <div class="terminal_promt">
-                            <span class="terminal_location2">~</span>
-                            <span class="">sl create command [commandName]</span>
-                            <span class="terminal_comment">//Crea tu propio commando.</span>
-                        </div>
-                        <div class="terminal_promt">
-                            <span class="terminal_location2">~</span>
-                            <span class="">sl [commandName] execute </span>
-                            <span class="terminal_comment">//Ejecuta cualquier commando hecho por nosotros y por la comunidad.</span>
-                        </div>
-                        <div class="terminal_promt">
-                            <span class="terminal_location2">~</span>
-                            <span class="">sl terminal colours</span>
-                            <span class="terminal_comment">//Shows you all colours variant for your terminal.</span>
-                        </div>
-                        <div class="terminal_promt">
-                            <span class="terminal_location2">~</span>
-                            <span class="">~sl setTime [time] [commandName] execute</span>
-                            <span class="terminal_comment">//Set up any command to execute automatic the day & hour you need.</span>
-                        </div>
-                        <div class="terminal_promt">
-                            <span class="terminal_location2">~</span>
-                            <span class="">sl set primaryColor [color]</span>
-                            <span class="terminal_comment">//Set up code line color with [colorName][HEX][RGB]</span>
-                        </div>
-                        <div class="terminal_promt">
-                            <span class="terminal_location2">~</span>
-                            <span class="">sl set secondaryColor [Pink]</span>
-                            <span class="terminal_comment">//Set up route line color with [colorName][HEX][RGB]</span>
-                        </div>
-                        <div class="terminal_promt">
-                            <span class="terminal_location2">~</span>
-                            <span class="">sl execute [commandName] if(paramaters)</span>
-                            <span class="terminal_comment">//Set up any command in case something happens with JavaScript syntax.</span>
-                        </div>
+                <h2 data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="1800">Personalize, Create &
+                    set your own commands!</h2>
+                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="1850"
+                    class="examplesContainer">
+                    <div class="terminal_promt">
+                        <span class="terminal_location2">~</span>
+                        <span class="">sl create command [commandName]</span>
+                        <span class="terminal_comment">//Crea tu propio commando.</span>
+                    </div>
+                    <div class="terminal_promt">
+                        <span class="terminal_location2">~</span>
+                        <span class="">sl [commandName] execute </span>
+                        <span class="terminal_comment">//Ejecuta cualquier commando hecho por nosotros y por la
+                            comunidad.</span>
+                    </div>
+                    <div class="terminal_promt">
+                        <span class="terminal_location2">~</span>
+                        <span class="">sl terminal colours</span>
+                        <span class="terminal_comment">//Shows you all colours variant for your terminal.</span>
+                    </div>
+                    <div class="terminal_promt">
+                        <span class="terminal_location2">~</span>
+                        <span class="">~sl setTime [time] [commandName] execute</span>
+                        <span class="terminal_comment">//Set up any command to execute automatic the day & hour you
+                            need.</span>
+                    </div>
+                    <div class="terminal_promt">
+                        <span class="terminal_location2">~</span>
+                        <span class="">sl set primaryColor [color]</span>
+                        <span class="terminal_comment">//Set up code line color with [colorName][HEX][RGB]</span>
+                    </div>
+                    <div class="terminal_promt">
+                        <span class="terminal_location2">~</span>
+                        <span class="">sl set secondaryColor [Pink]</span>
+                        <span class="terminal_comment">//Set up route line color with [colorName][HEX][RGB]</span>
+                    </div>
+                    <div class="terminal_promt">
+                        <span class="terminal_location2">~</span>
+                        <span class="">sl execute [commandName] if(paramaters)</span>
+                        <span class="terminal_comment">//Set up any command in case something happens with JavaScript
+                            syntax.</span>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 
     </header>
 
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
+
 </html>
